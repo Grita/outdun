@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiframe name="sd_outdun" x="0" y="0" width="30" height="30" create="open">
+  <frame title="sd_outdun" snapclient="true" snapframe="true" layout_gravity="right top" margin="0 75 315 0" />
+  <option visible="true" closebutton="false" useimageitem="true" piptype="right" alwaysVisible="true" />
+  <input hittestframe="true" />
+  <layer layerlevel="25" />
+  <draw blend="100" drawtitlebar="false" drawframe="false" />
+  <controls>
+    <button name="sd_outdun_btn" rect="0 0 30 30" margin="0 0 0 0" layout_gravity="right top" LBtnUpScp="SD_OUTDUN_ON_CLICK" image="buff_sale_left" MouseOffAnim="btn_mouseoff" MouseOnAnim="btn_mouseover" caption="" texttooltip="{@st59}Exit Instance{/}"/>
+  </controls>
+</uiframe>
